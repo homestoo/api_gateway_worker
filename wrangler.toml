@@ -5,3 +5,8 @@ compatibility_date = "2024-01-01"
 [vars]
 ENVIRONMENT = "production"
 
+
+# 指定部署区域，避开亚洲 不限制区域注释 下方代码
+[placement]
+mode = "smart"
+regions = ["wnam", "enam", "weur", "eeur", "asia"]  # 北美西部、北美东部、欧洲西部、欧洲东部、亚洲
